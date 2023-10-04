@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="all the things that will help you in minecraft ! food values, enchantment, potions, and ores places">
+    <link rel="stylesheet" href="css/a2z.css">
+    <link rel="icon" href="images/enchanted_book.png" type="image/x-icon">
+    <title>MC sheets</title>
+    <style>
+        body{font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif}
+        ::selection{background-color:var(--yel)}
+        .nav-links a:hover{color: green;font-size: 18px}
+        .nav-links a{text-decoration: none;color:var(--dark)}
+        .bone{width:35px;height:35px;background-image: url(images/half_hunger.png)}
+        .potion{width:40vw;height:40vw;background-image:url('images/potion.png');transform:rotate(30deg);opacity:0.6}
+        footer{width:100%;height:25vh;border-top:1px solid var(--dark)}
+        footer a{color:var(--gray9);text-decoration:none;font-weight:500;margin-left:10px;font-size:16px;transition:.3s}
+        footer a:hover{color:var(--dark);font-size:18px;font-weight:600}
+        @media (max-width:600px){.nav-links a{font-size:10px !important}nav h1{font-size:28px !important}.nav-links a:hover{font-size:12px !important}.potion{top:100px !important}}
+    </style>
+</head>
+<body class="bg-light" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+    <div class="scrollTop" id="scrlTop">up</div>
+    <nav class="sticky-top index-9 w-100p bg-teal d-flex justify-around align-items-center" style="border-bottom:1px black solid;height:75px">
+        <h1 class="co-gray8 w-50 fw-7" style="font-size:32px">MC sheets</h1>
+        <ul class="w-40p nav-links"><a class="co-green">home</a><a href="#about">about us</a><a href="#about">contact us</a></ul>
+    </nav>
+    <section class="p-25">
+        <a class="btn btn-yel mt-5" href="#1">in the beginning</a>
+        <a class="btn btn-yel mt-5" href="#2">food fill</a>
+        <a class="btn btn-yel mt-5" href="#3">ores places</a>
+        <a class="btn btn-yel mt-5" href="#4">enchanted books</a>
+        <a class="btn btn-yel mt-5" href="#5">potions</a>
+    </section>
+    <section class="mt-40">
+        <h2 class="ml-30 lll txt-capitalize" id="1">in the beginning</h2>
+        <p class="ml-40 relative top--10">- you must craft only wooden pickaxe ,<br>and look for stones from anywhere and pick them up and craft stone tools</p>
+        <div style="width:200px;height:300px;background-image:url('images/wooden_tools.jpg');" class="bg-cover br-10 mx-auto"></div>
+        <div style="width:375px;height:150px;background-image:url('images/stone_tools.jpg');" class="bg-cover br-10 mx-auto"></div>
+        <p class="ml-40 mt-35 relative top--10">- don't craft a stone sword but craft stone axe , <br>because it's damage is more than the stone sword and it use to cut wood</p>
+        <div style="width:300px;height:300px;background-image:url('images/sword_axe.jpg');" class="bg-cover br-10 mx-auto"></div>
+    </section>
+    <!--     Food     -->
+    <section class="mt-75">
+        <h2 class="ml-30 lll txt-capitalize" id="2">food fill</h2>
+        <p class="ml-40 relative top--10">here you will find the fill  of all the food in minecraft :<br><span class="co-gray7">-- the values here is by half hunger bone --</span></p>
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap" id="food" style="min-height:500px">
+            <!--     content from JS      -->
+        </div>
+    </section>
+    <!--    Ores      -->
+    <section class="mt-75">
+        <h2 class="ml-30 lll txt-capitalize" id="3">ores places</h2>
+        <p class="ml-40 relative top--10">here you will find the best place for all the ores :</p>
+
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap" id="ores" style="min-height:500px">
+            <!--content from JS-->
+        </div>
+    </section>
+    <!--   enchant    -->
+    <section class="mt-75">
+        <h2 class="ml-30 lll txt-capitalize" id="4">enchanted books</h2>
+        <p class="ml-40 relative top--10">here you will find all the details about all the enchanted books</p>
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap align-items-start" id="enchant" style="min-height:500px">
+            <!--content from JS-->
+        </div>
+    </section>
+    <!--   potions   -->
+    <section class="mt-75">
+        <h2 class="ml-30 lll txt-capitalize" id="5">potions</h2>
+        <p class="ml-40 relative top--10">here you will find all the details about all the enchanted books , <br><b>basics</b> : - we put blazing powder as a feul for brew stand.<br>- craft a bottle and fill it by water and put it down in brew stand.<br>- put <b>nether wart</b> in top of brew stand.<br>- now you have "awkward potion" , we will use it to make other potions,<br>put it in down of brew stand and put this items to brew potions :</p>
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap align-items-start relative" id="potions" style="min-height:500px">
+            <!--content from JS-->
+        </div>
+        <p class="ml-40"><b>- note :</b> - when you finish brewing the potion you can add it<br>in down of brew stand and put in top a <b>redstone</b> to increase the potion duration by almost 100% ,<br>or replace the redstone by <b>glow powder</b> to increase the effect by almost 100%<br>and reduce the duration by almost 50%</p>
+    </section>
+    <footer class="bg-teal mt-50 txt-align-center">
+        <p class="mx-auto w-90p">all the information in this website is true, this website built by <span class="co-dark fw-7">Abdurrahman Issalim</span> , i built it just for training and enjoying , Only pure HTML CSS JS </p>
+        <div class="txt-align-center mt-25 bg-teal" id="about">
+            <a href="https://www.facebook.com/profile.php?id=100057915460751&mibextid=ZbWKwL">Facebook</a>
+            <a href="https://instagram.com/3abod_sa?igshid=ZDdkNTZiNTM=">Instagram</a>
+            <a href="https://youtube.com/@zed_team">youtube</a>
+            <p class="co-gray8 fw-6">+963997203291</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

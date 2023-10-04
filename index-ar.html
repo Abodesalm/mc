@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="كل الأشياء التي ستساعدك في ماين كرافت ! إشباع الطعام , أماكن الموارد , التطويرات , و المشروبات !">
+    <link rel="stylesheet" href="css/a2z.css">
+    <link rel="icon" href="images/enchanted_book.png" type="image/x-icon">
+    <title>MC sheets</title>
+    <style>
+        body{direction:rtl !important;width:100% !important;overflow-x:hidden;font-family:system-ui, 'Segoe UI', 'Open Sans', sans-serif !important}
+        ::selection{background-color:var(--yel)}
+        .nav-links a:hover{color: green;font-size: 18px}
+        .nav-links a{text-decoration: none;color:var(--dark)}
+        .bone{width:35px;height:35px;background-image: url(images/half_hunger.png)}
+        .potion{width:40vw;height:40vw;background-image:url('images/potion.png');transform:rotate(30deg);opacity:0.6}
+        footer{width:100%;height:25vh;border-top:1px solid var(--dark)}
+        footer a{color:var(--gray9);text-decoration:none;font-weight:500;margin-left:10px;font-size:16px;transition:.3s}
+        footer a:hover{color:var(--dark);font-size:18px;font-weight:600}
+        @media (max-width:600px){.nav-links a{font-size:10px !important}nav h1{font-size:28px !important}.nav-links a:hover{font-size:12px !important}.potion{top:100px !important}}
+    </style>
+</head>
+<body class="bg-light" style="font-family: Arial, Helvetica, sans-serif;">
+    <div class="scrollTop" id="scrlTop">up</div>
+    <nav class="sticky-top index-9 w-100p bg-teal d-flex justify-around align-items-center" style="border-bottom:1px black solid;height:75px">
+        <h1 class="co-gray8 w-50 fw-7" style="font-size:32px">MC sheets</h1>
+        <ul class="w-40p nav-links"><a class="co-green">الصفحة الرئيسية</a><a href="#about">عنا</a><a href="#about">تواصل معنا</a></ul>
+    </nav>
+    <section class="p-25">
+        <a class="btn btn-yel mt-5" href="#1">في البداية</a>
+        <a class="btn btn-yel mt-5" href="#2">قيم إشباع الطعام</a>
+        <a class="btn btn-yel mt-5" href="#3">أماكن الموارد</a>
+        <a class="btn btn-yel mt-5" href="#4">التطويرات</a>
+        <a class="btn btn-yel mt-5" href="#5">المشروبات</a>
+    </section>
+    <section class="mt-40">
+        <h2 class="mr-30 lll lll-right w-80p txt-capitalize" id="1">في البداية</h2>
+        <p class="mr-40 relative top--10 w-80p">- لا يجب أن تصنع سوى معول خشبي و من ثم تكسر بعض الأحجار و تصنع أدوات حجرية.</p>
+        <div style="width:200px;height:300px;background-image:url('images/wooden_tools.jpg');" class="bg-cover br-10 mx-auto"></div>
+        <div style="width:375px;height:150px;background-image:url('images/stone_tools.jpg');" class="bg-cover br-10 mx-auto"></div>
+        <p class="mr-40 mt-35 w-80p relative top--10">- لا تصنع سيف حجري بل اصنع فأس حجري لأن ضرره أعلى فضلا عن سرعته بتقطيع الخشب.</p>
+        <div style="width:300px;height:300px;background-image:url('images/sword_axe.jpg');" class="bg-cover br-10 mx-auto"></div>
+    </section>
+    <!--     Food     -->
+    <section class="mt-75">
+        <h2 class="mr-30 w-80p lll lll-right txt-capitalize" id="2">إشباع الطعام</h2>
+        <p class="mr-40 w-80p relative top--10">- هنا ستجد قيم جميع الأطعمة في ماين كرافت :<br><span class="co-gray7">-- القيم هنا تعبر عن نصف عظمة من عظام الجوع --</span></p>
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap" id="food" style="min-height:500px">
+            <!--     content from JS      -->
+        </div>
+    </section>
+    <!--    Ores      -->
+    <section class="mt-75">
+        <h2 class="mr-30 w-80p lll lll-right txt-capitalize" id="3">أماكن الموارد</h2>
+        <p class="mr-40 w-80p relative top--10">- هنا ستجد أفضل الأماكن لجميع الموارد :</p>
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap" id="ores" style="min-height:500px">
+            <!--content from JS-->
+        </div>
+    </section>
+    <!--   enchant    -->
+    <section class="mt-75">
+        <h2 class="mr-30 w-80p lll lll-right txt-capitalize" id="4">التطويرات</h2>
+        <p class="mr-40 w-80p relative top--10">- هنا ستجد تفاصيل جميع التطويرات في اللعبة :</p>
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap align-items-start" id="enchant" style="min-height:500px">
+            <!--content from JS-->
+        </div>
+    </section>
+    <!--   potions   -->
+    <section class="mt-75">
+        <h2 class="mr-30 w-80p lll lll-right txt-capitalize" id="5">المشروبات</h2>
+        <p class="mr-40 w-80p relative top--10">هنا ستجد تفاصيل جميع المشروبات في اللعبة , <br><b>أساسيات :</b>- نضع <bdi>blazing powder</bdi> كوقود لآلة صناعة المشروبات.<br>- نصنع علبة زجاجية و نملؤها بالماء و نضعها في الخانة السفلية في آلة صناعة المشروبات.<br>- نضع <bdi><b>nether wart</b></bdi> في الخانة العلوية من آلة صناعة المشروبات.<br>- الآن ينتج لديك مشروب <bdi>"awkward potion"</bdi> , و سوف نستخدمه لصناعة بقية المشروبات,<br>نضعه في الخانة السفلية لآلة صناعة المشروبات و نضع هذه المواد في الأعلى للحصول على المشروبات التالية :</p>
+        <div class="w-90p bg-gray2 br-40 mx-auto d-flex justify-center flex-wrap align-items-start relative" id="potions" style="min-height:500px">
+            <!--content from JS-->
+        </div>
+        <p class="mr-40 w-80p"><b>- ملاحظة :</b> - عندما تنتهي من صناعة المشروب يمكنك وضعه في الخانة السفلية و تضع في الأعلى <b>redstone</b> لزيادة مدة المشروب بما يقارب 100% ,أو يمكنك وضع <b>glow powder</b> في الأعلى لزيادة التأثير بما يقارب 100%مع نقصان مدة المشروب بما يقارب 50%</p>
+    </section>
+    <footer class="bg-teal mt-50 txt-align-center">
+        <p class="mx-auto w-90p">جميع المعلومات في هذا الموقع صحيحة , بني هذا الموقع بواسطة <span class="co-dark fw-7">عبد الرحمن السالم</span> , بنيت هذا الموقع فقط من باب التدريب و التسلية , فقط أكواد <bdi>HTML CSS JS</bdi> صافية.</p>
+        <div class="txt-align-center mt-25 bg-teal" id="about">
+            <a href="https://www.facebook.com/profile.php?id=100057915460751&mibextid=ZbWKwL">فيسبوك</a>
+            <a href="https://instagram.com/3abod_sa?igshid=ZDdkNTZiNTM=">إنستاغرام</a>
+            <a href="https://youtube.com/@zed_team">يوتيوب</a>
+            <p class="co-gray8 fw-6">+963997203291</p>
+        </div>
+    </footer>
+    <script src="main-ar.js"></script>
+</body>
+</html>
